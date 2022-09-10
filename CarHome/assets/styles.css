@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root {
+    --text-color: #14dce0;
+    --background: #717a83;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+header {
+    background-color: rgba(92, 208, 243, 0.548);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 30px 0 30px;
+    position: fixed;
+    top: 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.logo {
+    height: 60px;
+}
+
+.nav-bar,
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bar {
+    gap: 120px;
+    
+}
+
+.nav-list {
+    gap: 20px;
+}
+
+.nav-list a {
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.nav-list li:first-child > a {
+    color: black;
+    font-weight: 600;
+}
+
+.cart-icon {
+    height: 40px;
+    border: 1px solid var(--background);
+    padding: 10px 18px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
