@@ -251,6 +251,11 @@ main {
   gap: 30px;
 }
 
+.details-cards img {
+  width: 50%;
+  height: 50%;
+}
+
 .details-cards img:hover {
   animation: scale 2s infinite;
 }
@@ -266,7 +271,11 @@ main {
 
 .cards-but{
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   gap: 30px;
+  height: 30%;
 }
 
 
@@ -285,7 +294,7 @@ main {
   border: none;
   outline: none;
   color: rgb(255, 255, 255);
-  background: #111;
+  background: rgb(21, 96, 139);
   cursor: pointer;
   position: relative;
   z-index: 0;
